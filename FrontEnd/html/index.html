@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My advisor</title>
+  <link rel="stylesheet" href="../public/css/main.css">
+</head>
+
+<body class="background-image">
+  <h1>My advisor</h1>
+  <form class="center" id="upload-form">
+    <label for="image">Upload the image:</label>
+    <input type="file" id="image-input" name="image" accept="image/*" onchange="previewImage(event)" >
+    <img id="preview" src="#" alt="Preview" style="max-width: 300px; display: none;">
+    <button type="submit">Diagnosis</button>
+  </form>
+  <div id="result" class="result"></div>
+  <script src="../public/js/preview.js"></script>
+  <script src="../public/js/upload.js"></script>
+</body>
+
+</html>
+
+<!--
+    "scripts": {
+    "start": "node index.js",
+    "clean": "rm -rf node_modules && npm install"
+  },
+  패키지 스크립트 빌드 코드
+  - 방화벽은 효과가 있는지 잘..
+  gcloud compute firewall-rules create fw-fe \
+    --allow tcp:8080 \
+    --target-tags=frontend
+
+-->

@@ -1,0 +1,21 @@
+.background-image {
+  background-image: url(../imgs/pawel-czerwinski-kxblPqfYc9E-unsplash.jpg); /* 이미지 경로 지정 */
+  background-size:cover; /* 이미지를 요소에 맞게 조절 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+  height: 600px; /* 요소 높이 설정 */
+  }
+
+.center {
+  padding-left: 600px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
