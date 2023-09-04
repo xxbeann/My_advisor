@@ -1,5 +1,5 @@
 # ❤️‍🩹 MyAdvisor
-> Google 임직원 심사 1위
+> Google 임직원 심사 1위 프로젝트
 
 
 # 프로젝트 배경
