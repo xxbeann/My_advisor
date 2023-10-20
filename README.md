@@ -142,5 +142,5 @@
 
 - **Google Cloud Natural Language API**: 텍스트 분석 작업을 위한 API
 
-[For more details](https://dandy-wool-62f.notion.site/My-advisor-2023-191eff432c3942b18b3fa8ceef763c2d?pvs=4)
+[For more details](https://xxbean.notion.site/My-advisor-2023-191eff432c3942b18b3fa8ceef763c2d?pvs=4)
 
